@@ -1,6 +1,6 @@
 h1{
  font-size: 80px;
- color: black;
+ color: white;
  font-weight: bold;
  text-align: center;
 }
@@ -18,4 +18,7 @@ p{
 nav{
     word-spacing: 10px;
     text-align: center;
+}
+header{
+  background-color: black;
 }
