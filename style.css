@@ -19,6 +19,6 @@ nav{
     word-spacing: 10px;
     text-align: center;
 }
-header{
+header,footer{
   background-color: black;
 }
