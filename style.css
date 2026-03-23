@@ -1,6 +1,11 @@
-h1{
+h1,h2{
  font-size: 80px;
  color: black;
  font-weight: bold;
  text-align: center;
 }
+p{
+ font-size: 30px:
+ color: blue;
+ text-align: center;
+ }
