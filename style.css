@@ -1,24 +1,16 @@
-h1{
- font-size: 80px;
- color: white;
- font-weight: bold;
- text-align: center;
-}
-h2{
- font-size: 40px;
- color: black;
- font-weight: bold;
- text-align: center;
-}
-p{
- font-size: 30px:
- color: blue;
- text-align: center;
- }
-nav{
-    word-spacing: 10px;
+body {
+    font-family: Arial;
     text-align: center;
 }
-header,footer{
-  background-color: black;
+
+nav {
+    margin: 10px;
+}
+
+section {
+    margin: 40px;
+}
+
+footer {
+    margin-top: 50px;
 }
