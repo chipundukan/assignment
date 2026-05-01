@@ -1,114 +1,67 @@
-/* Reset everything */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Page behaves like a fixed document */
 body {
-    width: 794px;                 /* A4-like width */
-    margin: 0 auto;               /* center page */
     font-family: Arial, sans-serif;
-    color: #000;
+    margin: 0;
+    background-color: #f4f4f4;
 }
 
-/* Header (Title at top center) */
 header {
+    background: black;
+    color: white;
+    padding: 15px;
     text-align: center;
-    margin-top: 20px;
 }
 
-header h1 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Navigation (single line with separators) */
 nav {
+    background: #333;
+    padding: 10px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 14px;
 }
 
 nav a {
+    color: white;
+    margin: 0 10px;
     text-decoration: none;
-    color: black;
+    font-weight: bold;
 }
 
-/* Main content block */
-main {
-    text-align: center;
-}
-
-/* Section spacing */
 section {
-    margin-bottom: 40px;
-}
-
-/* Headings */
-h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-h3 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-/* Paragraph text */
-p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin: 5px 0;
-}
-
-/* PRODUCTS: stacked exactly like document */
-article {
-    margin-top: 25px;
-}
-
-/* CONTACT form alignment */
-form {
-    margin-top: 20px;
-}
-
-/* Labels (NAMES, EMAIL, MESSAGE) */
-form p {
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-/* Inputs fixed width like form fields on paper */
-input, textarea {
-    width: 280px;
-    padding: 6px;
-    margin-top: 5px;
-    border: 1px solid #000;
-    font-size: 14px;
-}
-
-/* Textarea height */
-textarea {
-    height: 80px;
-}
-
-/* Button */
-button {
-    margin-top: 15px;
-    padding: 6px 18px;
-    border: 1px solid #000;
-    background: white;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-/* Footer at bottom of page */
-footer {
+    padding: 40px;
     text-align: center;
-    margin-top: 60px;
-    font-size: 13px;
+}
+
+.hero {
+    background: #ddd;
+    padding: 60px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
 }
