@@ -51,7 +51,7 @@ color: yellow;
 .hero {
 background: url("images/store.jpg") center/cover no-repeat;
 text-align: center;
-color: white;
+color: black;
 padding: 120px 20px;
 }
 
@@ -67,7 +67,7 @@ margin-bottom: 20px;
 
 .hero button {
 padding: 12px 20px;
-background: yellow;
+background: blue;
 border: none;
 font-weight: bold;
 cursor: pointer;
