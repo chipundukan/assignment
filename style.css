@@ -65,3 +65,9 @@ button {
     color: white;
     border: none;
 }
+nav{
+position: sticky;
+top: 0;
+background:#1a1a1a;
+padding:10px;
+}
