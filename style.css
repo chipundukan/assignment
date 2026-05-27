@@ -12,14 +12,14 @@ box-sizing: border-box;
 /* BODY */
 body {
 font-family: Arial, sans-serif;
-background: #f4f4f4;
+background: whitesmoke;
 line-height: 1.6;
-color: #111;
+color: black;
 }
 
 /* HEADER */
 header {
-background: #111;
+background: black;
 color: white;
 text-align: center;
 padding: 20px;
@@ -77,6 +77,7 @@ transition: 0.3s;
 
 .hero button:hover {
 background: white;
+color: black;
 }
 
 /* MAIN */
@@ -85,7 +86,7 @@ padding: 40px;
 text-align: center;
 }
 
-/* PRODUCT GRID (IMPROVED) */
+/* PRODUCT GRID */
 .products {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -98,7 +99,7 @@ article {
 background: white;
 padding: 20px;
 border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+box-shadow: 0 4px 10px gray;
 text-align: center;
 transition: 0.3s;
 }
@@ -140,7 +141,7 @@ margin-bottom: 10px;
 /* BUTTONS */
 button {
 padding: 10px 15px;
-background: #2c7be5;
+background: dodgerblue;
 color: white;
 border: none;
 border-radius: 5px;
@@ -150,7 +151,7 @@ transition: 0.3s;
 }
 
 button:hover {
-background: #111;
+background: black;
 }
 
 /* GALLERY */
@@ -165,7 +166,7 @@ margin-top: 20px;
 background: white;
 padding: 15px;
 border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+box-shadow: 0 4px 10px gray;
 text-align: center;
 transition: 0.3s;
 }
@@ -190,7 +191,7 @@ flex-direction: column;
 background: white;
 padding: 25px;
 border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+box-shadow: 0 4px 10px gray;
 }
 
 form label {
@@ -204,7 +205,7 @@ textarea {
 padding: 10px;
 margin-top: 5px;
 margin-bottom: 15px;
-border: 1px solid #ccc;
+border: 1px solid lightgray;
 border-radius: 5px;
 }
 
@@ -214,7 +215,7 @@ resize: none;
 
 /* FOOTER */
 footer {
-background: #111;
+background: black;
 color: white;
 text-align: center;
 padding: 15px;
